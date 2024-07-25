@@ -12,7 +12,7 @@ public class AltCommand extends AdvancedCommand {
     public AltCommand() {
         super(List.of("alt"));
         setUsage("/em alt");
-        setDescription("Changes the style of the /em menu.");
+        setDescription("Changes the style of the /em menu between book style and inventory style.");
         setSenderType(SenderType.PLAYER);
     }
 
