@@ -11,8 +11,9 @@ public class ArenaCommand extends AdvancedCommand {
         super(List.of("arena"));
         addArgument("arenaID", new ArrayList<>());
         setUsage("/em arena <arenaID>");
-        setDescription("When in instanced content, makes the player start the instance.");
+        setDescription("Brings up the arena menu for the specified arena.");
         setSenderType(SenderType.PLAYER);
+        setPermission("elitemobs.arena.menu");
     }
 
     @Override
